@@ -9670,7 +9670,7 @@ button.bg-dark:focus {
 }
 
 .text-yellow {
-  color: var(--yellow);
+  color: var(--yellow) !important ;
 }
 
 .text-primary {
@@ -10076,4 +10076,9 @@ h6 {
 
 .para-p {
   text-align: justify;
+}
+
+#yelloww {
+  color: var(--yellow);
+  font-size: 60px;
 }
