@@ -10080,5 +10080,14 @@ h6 {
 
 #yelloww {
   color: var(--yellow);
-  font-size: 60px;
+  font-size: 80px;
+}
+
+#devis-btn {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#devis-h3 {
+  font-size: 40px;
 }
