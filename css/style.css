@@ -9669,6 +9669,10 @@ button.bg-dark:focus {
   color: #fff !important;
 }
 
+.text-yellow {
+  color: var(--yellow);
+}
+
 .text-primary {
   color: #009cff !important;
 }
