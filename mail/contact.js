@@ -7,8 +7,12 @@ $(function () {
         submitSuccess: function ($form, event) {
             event.preventDefault();
             var name = $("input#name").val();
+            var firstname = $('firstname').val();
+            var phone = $('phone').val();
             var email = $("input#email").val();
-            var subject = $("input#subject").val();
+            var type = $('type').val();
+            var situation = $("situation").val();
+            var address = $('address').val();
             var message = $("textarea#message").val();
 
             $this = $("#sendMessageButton");
@@ -19,8 +23,12 @@ $(function () {
                 type: "POST",
                 data: {
                     name: name,
+                    firstname: firstname,
+                    phone: phone,
                     email: email,
-                    subject: subject,
+                    type: type,
+                    situation: situation,
+                    address: address,
                     message: message
                 },
                 cache: false,
