@@ -6489,12 +6489,7 @@ a.close.disabled {
   vertical-align: text-top !important;
 }
 
-.bg-primary {
-  background-color: #009cff !important;
-}
 
-a.bg-primary:hover,
-a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
   background-color: #007dcc !important;
@@ -9963,7 +9958,7 @@ h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.1);
   z-index: 1;
 }
 
@@ -10090,4 +10085,19 @@ h6 {
 
 #devis-h3 {
   font-size: 35px;
+}
+
+#devis-h6 {
+  font-size: 26px;
+  font-weight: bold;
+  color: var(--blue) !important;
+}
+
+#bandeau {
+  width: 100%;
+  height: 60px;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
