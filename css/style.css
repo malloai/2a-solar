@@ -10066,6 +10066,7 @@ h6 {
 .testimonial-carousel .owl-nav .owl-next {
   color: #ffffff;
   background: var(--yellow);
+  border-radius: 8px;
 }
 
 .contact-form .help-block ul {
