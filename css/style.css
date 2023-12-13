@@ -10114,3 +10114,11 @@ h6 {
   justify-content: center;
   align-items: center;
 }
+
+.testimonials-avis:hover {
+  text-decoration: none;
+}
+
+#google-logo {
+  width: 70px;
+}
