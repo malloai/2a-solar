@@ -10057,7 +10057,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #009cff;
+  color: var(--yellow);
   background: #ffffff;
   font-size: 30px;
 }
@@ -10065,7 +10065,7 @@ h6 {
 .testimonial-carousel .owl-nav .owl-prev,
 .testimonial-carousel .owl-nav .owl-next {
   color: #ffffff;
-  background: #009cff;
+  background: var(--yellow);
 }
 
 .contact-form .help-block ul {
@@ -10122,3 +10122,4 @@ h6 {
 #google-logo {
   width: 70px;
 }
+
