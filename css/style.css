@@ -9750,7 +9750,7 @@ a.text-dark:focus {
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: #ffc107 !important;
 }
 
 .text-black-50 {
@@ -10124,3 +10124,25 @@ h6 {
   width: 70px;
 }
 
+#icons {
+  margin-top: -100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--dark);
+  z-index: 1;
+}
+
+svg {
+  height: 200px;
+  fill: #ffc107;
+}
+
+.bg-3 {
+  background-color: var(--dark);
+}
+
+.tarifs-h5 {
+  color: white;
+}
