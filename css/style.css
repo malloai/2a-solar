@@ -10125,6 +10125,7 @@ h6 {
 }
 
 #icons {
+  padding-bottom: 10px;
   margin-top: -100px;
   width: 100%;
   display: flex;
@@ -10134,7 +10135,9 @@ h6 {
 }
 
 svg {
-  padding-top: 40px;
+  margin-left: 1px;
+  padding-top: 30px;
+  padding-bottom: -10px;
   height: 9rem;
   fill: #ffc107;
 }
@@ -10145,4 +10148,16 @@ svg {
 
 .tarifs-h5 {
   color: white;
+}
+
+.iconsfull {
+  text-align: center;
+  width: 15%;
+}
+
+.garanties {
+  font-size: 3rem;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 80px;
 }
